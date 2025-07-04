@@ -89,10 +89,14 @@
 
 /* HERO BANNER START */
 
+.hero-banner{
+
+    margin-top: 60px;
+}
+
 .hero-banner .background-img{
     width: 100%;
     height: auto;
-    margin-top: 60px;
     text-align: right;
 }
 
