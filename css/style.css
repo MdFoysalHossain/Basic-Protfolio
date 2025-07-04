@@ -14,6 +14,17 @@
 }
 
 
+.section-header h2{
+    font-size: 40px;
+    font-family: "Lobster", sans-serif;
+    font-weight: 600;
+}
+
+.section-header h2::after{
+    position: absolute;
+    height: 5px;
+    width: 100px;
+}
 
 
 
@@ -142,3 +153,94 @@
 
 
 /* HERO BANNER END */
+
+
+
+
+
+.all-skills{
+    margin-top: 1000px;
+    /* margin-top: 700px; */
+}
+
+.single-skill {
+    display: inline-block;
+    margin: 15px 10px;
+    background-color: rgba(228, 230, 231, 0.25);
+    width: 320px;
+    height: 100px;
+}
+
+.single-skill div{
+    display: inline-block;
+    position: relative;
+}
+
+.single-skill .logo-div{
+    align-items: center;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    /* background-color: blanchedalmond; */
+}
+
+.single-skill .logo-div img{
+    position: absolute;
+    height: 60px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.single-skill .logo-div img:nth-child(2){
+    position: absolute;
+    height: 45px;
+    top: 80%;
+    left: 80%;
+    transform: translate(-80%, -80%);
+    opacity: 100%;
+}
+
+
+
+.single-skill .bar-div{
+    width: 215px;
+    /* background-color: aquamarine; */
+}
+
+.bar-percentage{
+    position: relative;
+
+}
+
+.single-skill .bar-div .uppar-bar{
+    position: absolute;
+    width: 180px;
+    height: 12px;
+    background-color: #151515;
+    border-radius: 20px;
+    top: -70px;
+}
+
+
+
+.single-skill .bar-div .lower-bar{
+    position: absolute;
+    width: 200px;
+    height: 12px;
+    border-radius: 20px;
+    background-color: #15151579;
+    top: -70px;
+}
+
+.single-skill .bar-div .skill-name{
+    position: absolute;
+    width: 200px;
+    top: -50px;
+
+    font-size: 25px;
+    font-family: "Barlow", sans-serif;
+    /* font-family: "Lobster", sans-serif; */
+    font-weight: 500;
+    color: #151515;
+}
