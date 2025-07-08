@@ -110,7 +110,7 @@
 
 .hero-text-1{
     position: absolute;
-    bottom: 400px;
+    top: 400px;
 }
 
 .hero-text-1 span{
@@ -136,12 +136,15 @@
 
 .hero-text-2{
     position: absolute;
-    bottom: 330px;
+    top: 570px;
     /* right: 0; */
 }
 
 .hero-text-2 span{
+    
+    font-size: 60px;
     font-weight: 700;
+
 }
 
 .hero-text-2 p{
