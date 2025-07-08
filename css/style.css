@@ -8,9 +8,10 @@
 .container{
     width: 1400px;
     /* background-color: antiquewhite; */
-    position: absolute;
+    /* position: absolute;
     left: 50%;
-    transform: translate(-50%);
+    transform: translate(-50%); */
+    margin: 0 auto;
 }
 
 
@@ -166,7 +167,7 @@
 /* ALL SKILLS START */
 
 .all-skills{
-    margin-top: 1000px;
+    margin-top: 100px;
     /* margin-top: 700px; */
 }
 
@@ -265,10 +266,8 @@
 /* ALL PROJECTS START */
 
 .all-projects{
-    margin-top: 1370px;
+    margin-top: 100px;
 }
-
-/* ALL PROJECTS END */
 
 .single-project{
     margin-top: 20px;
@@ -276,6 +275,7 @@
     height: 415px;
     display: inline-block;
     margin: 20px 10px;
+    position: relative;
 }
 
 .single-project .background-img img{
@@ -285,7 +285,7 @@
 
 .single-project .background-cover{
     position: absolute;
-    top: 70px;
+    top: 0px;
     width: 325px;
     height: 415px;
     background-color: rgba(21, 21, 21, 0.5);
@@ -308,3 +308,82 @@
 .single-project:hover .project-cover{
     opacity: 100%;
 }
+
+/* ALL PROJECTS END */
+
+
+
+/* ALL WORK START */
+
+.all-work{
+    margin-top: 100px;
+    
+}
+
+
+/* .single-work{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+} */
+
+.single-work{
+    /* background-color: rgb(248, 248, 248); */
+    margin-top: 20px;
+    padding: 15px;
+    /* border-radius: 15px; */
+    border-bottom: 2px solid #e8e8e884;
+}
+
+.single-work .work-logo{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50px;
+    text-align: center;
+    justify-content: center;
+    display: inline-block;
+    position: absolute;
+}
+
+.single-work .work-logo img{
+    width: 100px;
+    height: 100px;
+}
+
+.single-work .work-details{
+    display: inline-block;
+    width: 1250px;
+    margin-left: 120px;
+}
+
+.single-work .work-details p, span{
+    font-size: 20px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+}
+
+.single-work .work-details .occupation{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.single-work .work-details .location{
+    display: inline-block;
+    width: 80%;
+
+}
+
+.single-work .work-details span{
+    text-align: right;
+    display: inline-block;
+    width: 19%;
+}
+
+.single-work .work-details .work-description{
+    margin-top: 15px;
+}
+
+
+
+/* ALL WORK END */
